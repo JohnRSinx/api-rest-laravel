@@ -13,4 +13,3 @@ Route::get('orders',[OrdersController::class,"index"]);
 Route::post('orders',[OrdersController::class,"register"]);
 Route::put('orders/{id}',[OrdersController::class,"update"]);
 Route::delete('orders/{id}',[OrdersController::class,"delete"]);
-
